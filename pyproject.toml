@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "propety-based-testing"
+version = "0.1.0"
+description = ""
+authors = ["Felix Miño, felix.minom@gmail.com"]
+readme = "README.md"
+packages = [{include = "propety_based_testing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.tests]
+[tool.poetry.group.tests.dependencies]
+hypothesis = "^6.75.6"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

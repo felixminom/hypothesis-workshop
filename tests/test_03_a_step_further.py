@@ -1,0 +1,1 @@
+# https://hypothesis.readthedocs.io/en/latest/data.html#adapting-strategies
