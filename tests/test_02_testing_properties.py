@@ -46,6 +46,9 @@ def test_sum_associative_property():
     # Our code goes here
     pytest.skip()
 
+# Bonus 1: rewrite the test above using the permutations strategy
+# (https://hypothesis.readthedocs.io/en/latest/data.html#hypothesis.strategies.permutations)
+
 
 # Example 4: Let's write a test for the additive Identity together.
 # Additive Identity property: On adding zero to any number, the sum
@@ -58,6 +61,9 @@ def test_sum_identity_property():
     # Our code goes here
     pytest.skip()
 
+
+# You don't need to solve this right now.
+# We'll come back later today.
 
 # Example 5: Let's write a test for the following property.
 # Additive inversive property: Additive inverse of a number x is the number that,
